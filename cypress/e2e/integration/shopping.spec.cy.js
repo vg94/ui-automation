@@ -15,7 +15,7 @@ describe('Shopping Test', () => {
         cy.get('#password').type('secret_sauce');
         cy.get('#login-button').click();
 
-        // Data-driven test to add items to the cart
+        // test to add items to the cart
         testData.items.forEach(item => {
             cy.contains('.inventory_item', item).within(() => {
                 cy.get('.btn_primary').click();
