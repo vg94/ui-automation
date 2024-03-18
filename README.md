@@ -8,15 +8,31 @@ The following steps provide overview of the project:
 Launch Visual Studio Code on your machine.
 
 A new directory is created for project:
+
+
     mkdir cypress-ui-automation
     cd cypress-ui-automation
 
+
+
 TheVisual studio is opened in the directory and Node js initialixed using: 
+
+
     npm init -y
+
+
 Cypress in installed as a dev dependency by:
+
+
     npm install cypress --save-dev
+
+
 Cypress Test Runner is opened in Visual Studio Code by:
+
+
     npx cypress open
+
+
 There are 2 folders in the Cypress framework that are used for this project:
     fixtures: It stores data
     integrations: it contains Test files
